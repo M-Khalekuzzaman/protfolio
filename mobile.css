@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+}
+body{
+    margin: 0%;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+p{
+
+font-size: 1.2rem;
+}
+.dotted-hr{
+    border: dotted 4px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+
+}
+
+
+[class*=col-]{
+    float: left;
+    padding: 2px;
+
+
+}
+/*for mobile*/
+[class*=col-]{
+    width: 100%;
+    
+}
+
+/*navbar styles starts for hear*/
+
+.navbar{
+    background-color: #0c6168;
+    padding: 1% 5%;
+    text-align: center;
+
+
+}
+
+.nav-logo img{
+    height: 100px;
+    width: 100px;
+}
+.navbar::after{
+    clear: both;
+    display: table;
+    content:'';
+}
+.navbar h1{
+    color: white;
+    margin: 0%;
+    padding-top: 10px;
+
+}
+.navbar-manu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+.navbar-manu a{
+  background-color: lightseagreen;
+    padding: 10px;
+    margin: 7px 0px;
+    border-radius: 10px;
+
+
+
+
+}
+.navbar-manu a:hover{
+    background-color: gray;
+}
+
+/*navbar styles ends hear*/
+
+/* profile desigin starts here */
+
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile .top-eee-icon{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+
+}
+.profile .top-eee-icon:hover{
+transform: rotate(360deg);
+}
+.profile .bottom-eee-icon{
+    position: absolute;
+    left: 25px;
+    top: 570px;
+    transition: transform 2s;
+
+}
+.profile .bottom-eee-icon:hover{
+    transform: rotate(360deg);
+    }
+    .profile-desc h1{
+        font-family: "Sofia", sans-serif;
+        font-size: 2rem;
+    }
+    .profile-desc h2{
+        font-family: "arial";
+        font-size: 2rem;
+    }
+    .profile p{
+        color: gray;
+        text-align: center;
+        width: 90%;
+        margin: 0% auto 20px auto;
+
+    }
+    .profile-desc::after{
+        display: table;
+        content:'';
+        clear:both;
+    }
+
+
+
+/* profile desigin ends here */
+
+/* aboutme design starts here */
+.aboutme{
+    background-color: cadetblue;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: "Trirong", serif;
+
+  
+
+}
+.aboutme-image.image{
+
+    height: 100px;
+    width: 100px;
+   
+
+}
+
+.aboutme::after{
+    clear: both;
+    display: table;
+    content:'';
+
+}
+.aboutme-desc p{
+  text-align: center;
+
+
+}
+
+
+
+/* aboutme design ends here */
+
+/* professional experience starts here */
+
+.professional-experience{
+    padding: 2% 4%;
+    
+}
+.professional-experience .card{
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    height: auto;
+
+}
+.professional-experience .card:hover{
+    box-shadow: 0px 4px 8px 5px black;
+
+}
+.card-icon{
+   text-align: center;
+
+}
+.card-icon img{
+
+    margin-top: 20px;
+    width: 100px;
+    background-color: chocolate;
+    border-radius: 60px;
+}
+.card-title h2{
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: teal;
+    padding: 2px;
+    border-radius: 10px;
+}
+.professional-experience::after{
+    display: table;
+    clear:both;
+    content:''
+
+}
+
+/* professional experience starts here */
+
+
+
+
+
+
+
+
+
+
